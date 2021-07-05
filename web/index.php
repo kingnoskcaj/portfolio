@@ -27,4 +27,30 @@ $app->get('/cv', function() use($app) {
   return $app['twig']->render('cv.twig');
 });
 
+$app->get('/project-creator', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return $app['twig']->render('cv.twig');
+});
+
+$app->get('/guessify', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return $app['twig']->render('cv.twig');
+});
+
+$app->get('/car-dealer-website', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return $app['twig']->render('cv.twig');
+});
+
+$app->get('/portfolio', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return $app['twig']->render('cv.twig');
+});
+
+$app->get('/zigzbot', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return $app['twig']->render('cv.twig');
+});
+
+
 $app->run();
