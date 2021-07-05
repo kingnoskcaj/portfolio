@@ -14,158 +14,88 @@ body {font-size:16px;}
 
   <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
-    <h1 class="w3-jumbo"><b>Interior Design</b></h1>
-    <h1 class="w3-xxxlarge w3-text-red"><b>Showcase.</b></h1>
+    <h1 class="w3-jumbo"><b>Zigliki's Things</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
   </div>
-  
-  <!-- Photo grid (modal) -->
-  <div class="w3-row-padding">
-    <div class="w3-half">
-      <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
-    </div>
 
-    <div class="w3-half">
-      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
-      <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
-      <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
-    </div>
-  </div>
-
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption"></p>
-    </div>
-  </div>
-
-  <!-- Services -->
-  <div class="w3-container" id="services" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Services.</b></h1>
+  <!-- Introduction -->
+  <div class="w3-container" id="intro" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Introduction</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
-    <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <p>Hi! I'm Zigliki and I am an aspiring software developer!</p>
+    <p>I recently graduated from Conestoga Collage after studying Software Engineering Technology. My best programming language is probably C# with C/C++ right behind it.
+    I am reasonably proficient with many other languages like Python, Java, Node.js, React, HTML and, CSS. I have also dabbled with Swift.
+    I enjoy learning new thing and pick up on them quickly. If I don't know a language, it doesn't take that long to get up to speed.
     </p>
   </div>
   
-  <!-- Designers -->
-  <div class="w3-container" id="designers" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Designers.</b></h1>
+  <!-- Project Creator -->
+  <div class="w3-container" id="Project_Creator" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Project Creator</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>The best team in the world.</p>
-    <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <p>Project Creator is the capstone project for my team worked on for out software engineering program.</p>
+    <p>Project Creator is built on the Mictosoft ASP.NET Framework with webforms for its interface. 
+    It utilises a Microsoft Azure SQL database for data storage and Azure blob storage for images,
+    videos and pdfs. It was deployed to the cloud through Azure as well. Unfortunately, it is no longer online
+    as the deployment was through the school accounts which are no longer active and I cannot afford to run the deployment myself.
     </p>
-    <p><b>Our designers are thoughtfully chosen</b>:</p>
+    <p><b><a href="/project-creator">Click here to learn more!</a></b></p>
   </div>
 
-  <!-- The Team -->
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-        <div class="w3-container">
-          <h3>John Doe</h3>
-          <p class="w3-opacity">CEO & Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-        <div class="w3-container">
-          <h3>Jane Doe</h3>
-          <p class="w3-opacity">Designer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-        <div class="w3-container">
-          <h3>Mike Ross</h3>
-          <p class="w3-opacity">Architect</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Packages / Pricing Tables -->
-  <div class="w3-container" id="packages" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Packages.</b></h1>
+  <!-- Portfolio -->
+  <div class="w3-container" id="Portfolio" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Portfolio Website</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+    <p>This website is a php website that I wrote!</p>
+    <p>I know services like SquareSpace and Wix offer services that make portfolio building easy to do. As
+    I am a software developer, I figured that I save some money and write my own. I don't know how the service
+    websites look but I don't think I have done a bad job.
+    </p>
+    <p>
+    This portfolio website is written using PHP, Twig and, Composer and is deployed via Heroku. Isn't that neat?
+    </p>
+    <p><b><a href="https://github.com/kingnoskcaj/portfolio">Check out this project on GitHub!</a></b></p>
   </div>
 
-  <div class="w3-row-padding">
-    <div class="w3-half w3-margin-bottom">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16">Floorplanning</li>
-        <li class="w3-padding-16">10 hours support</li>
-        <li class="w3-padding-16">Photography</li>
-        <li class="w3-padding-16">20% furniture discount</li>
-        <li class="w3-padding-16">Good deals</li>
-        <li class="w3-padding-16">
-          <h2>$ 199</h2>
-          <span class="w3-opacity">per room</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-        
-    <div class="w3-half">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-red w3-xlarge w3-padding-32">Pro</li>
-        <li class="w3-padding-16">Floorplanning</li>
-        <li class="w3-padding-16">50 hours support</li>
-        <li class="w3-padding-16">Photography</li>
-        <li class="w3-padding-16">50% furniture discount</li>
-        <li class="w3-padding-16">GREAT deals</li>
-        <li class="w3-padding-16">
-          <h2>$ 249</h2>
-          <span class="w3-opacity">per room</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
-        </li>
-      </ul>
-    </div>
+  <!-- Guessify -->
+  <div class="w3-container" id="Guessify" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Guessify</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Guessify is a game for iOS where you attempt to move the slider to the correct position</p>
+    <p>Guessify was the first real iOS app that I worked on. It is written using Swift. It utilises many different UI elements and 
+    plays music in the backround Unfortunately, it doesn't have good code separation and contains most of
+    the code with ViewController.swift. The apps that were developed afterwards did better but
+    I no longer have those applications. 
+    </p>
+    <p><b><a href="/guessify">Click here to learn more!</a></b></p>
   </div>
+
+  <!-- Car Dealer Website -->
+  <div class="w3-container" id="Car_Dealer_Website" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Car Dealer Website</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Car Dealer Website is the final project for my Advanced Web Frameworks course</p>
+    <p>Car Dealer Website is a demonstration of a React frontend with a Node.js backend. It utilises MongoDB
+    for data storage.
+    </p>
+    <p><b><a href="/car-dealer-website">Click here to learn more!</a></b></p>
+  </div>
+
+  <!-- ZigzBot -->
+  <div class="w3-container" id="ZigzBot" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>ZigzBot</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>ZigzBot is a IRC bot for Twitch</p>
+    <p>Several years ago my friend Garonrouge was getting into streaming on Twitch. I thought it would be
+    fun to write a bot to interact with the chat. ZigzBot is written using Java and uses the swing UI elements.
+    Zigzbot can tell users how long the channel has been streaming, draft Hearthstone arena decks based 
+    on user input and, hug people who hug him. Unfortunately, Garonrouge didn't end up streaming and as
+    further development was based on ideas that came up while streaming the bot stagnated.
+    </p>
+    <p><b><a href="/zigzbot">Click here to learn more!</a></b></p>
+  </div>
+
   
-  <!-- Contact -->
-  <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
-    <form action="/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" name="Name" required>
-      </div>
-      <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" name="Email" required>
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" required>
-      </div>
-      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
-    </form>  
-  </div>
 
 <!-- End page content -->
 </div>
